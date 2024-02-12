@@ -1,0 +1,4 @@
+Temat: Export, import, mysqli: select, count css + html
+
+baza danych nazywa się 2ct_12022024
+tabela - baza
