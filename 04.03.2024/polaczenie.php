@@ -3,7 +3,7 @@ $serwer = "localhost";
 $port = 3306;
 $username = "root";
 $password = "";
-$bazadanych = "2ct26022024";
+$bazadanych = "2CT04032024";
 
 try{
     $polaczenie = new PDO('mysql:host='.$serwer.';dbname='.$bazadanych.';port='.$port.';charset=utf8',$username,$password);
