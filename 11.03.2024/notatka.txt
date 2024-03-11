@@ -1,0 +1,32 @@
+Bazy danych:
+	Projekt 11.03.2024, driver PDO in Mysql
+Temat: Techniki html, css, php pobieranie danych, PDO
+
+Treść Zadania:
+
+	Utwórz baze danych o nazwie "Radosc"
+	Baza "Radosc" posiada tabele w relacji 1 - wielu.
+	1 Tabela: Dzialanie(IDD, Nazwa)
+		np. 1	Sprawdzian
+		    2	Wyjscie do kina
+	
+	2 Tabela: Efekt (IDE, Nazwa, IDD)
+		np. 1 uśmiech 1
+		    2 chęć ponownego sprawdzianu 1
+		    3 spotkanie 2
+		    4 dobra relacja z klasą 2
+
+Wytyczne:
+	Połączenie do BD: PDO(polaczenie.php)
+	Aplikacja w XAMPP (phpmyadmin)
+opis: 
+	strona html + css wykorzystująca technologie php
+	strona posiada Menu Home | lista | Pole select
+
+	Home: Informacja nt Autora i pokazanie komunikatu: Połączono do bazy danych
+	Lista: ul>li w pliku: lista.php, prezentuje rekordy pobrane z bazy danych
+	Pole select: w html tworzymy liste <select></select> po kliknieciu w listy selecta przechodimy do tego jednego rekordu do pliku jeden.php
+	
+	Strona posiada stopke z numerem buta ucznia
+
+	czas wykonania app na wczoraj 
