@@ -1,0 +1,23 @@
+Temat: Ćwiczenia: tworzenie Widoków, pobieranie danych z Widoków w MySQL
+
+Zadanie:
+
+BazaWidok1
+tablea: Uczniowie (idu, imie, nazwisko, miasto)
+2 widok: dowolnie.
+pboierz w php zawartość widoku
+
+Zadanie na ocene
+
+BazaWidok2 - Model bazy 1 do wielu
+1 tabela: Klient: idk, imie, nazwisko
+2 tabela: Zainteresowania: idz, idk, nazwa
+Utwórz widok, który pobiera z bazy imie, nazwisko, nazwe z relacyjneg omodelu 1- wielu
+w php: mysqli, pobierz dane do tabeli html
+
+
+zadanie domowe na 22 kwietnia:
+
+- 2 widoki w formie prezentacji
+tabela uczen - widok prezentacji ucznia
+tabela oena - relacyjne polaczenie 1 do wielu, prezentacja uczen i ocena
