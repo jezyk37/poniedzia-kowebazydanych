@@ -1,0 +1,76 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+.menu{
+    width: 20%;
+    float: left;
+}
+.window{
+    width: 80%;
+    float: left;
+}
+.header{
+    padding-top: 15px;
+    height: 150px;
+    background-color: chartreuse;
+}
+.content{
+    padding-top: 50px;
+    min-height: 650px;
+    background-color: gray;
+}
+.footer{
+    padding-top: 15px;
+    height: 150px;
+    background-color: chartreuse;
+}
+.formCars{
+    padding: 20px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.calcForm{
+    padding: 20px;
+    width: 450px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.ContactForm{
+    padding: 20px;
+    width: 450px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.sigma{
+    padding: 20px;
+    width: 450px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.BtnButton{
+
+}
+.wynik{
+    padding: 20px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
