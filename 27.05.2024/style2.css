@@ -1,0 +1,19 @@
+.zawartosc{
+    padding: 20px;
+    width: 1400px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.post{
+    background-color: aliceblue;
+}
+.id{
+    font-size: 42px;
+}
+.title{
+    font-size: 34px;
+}
+.body{
+    font-size: 30px;
+}

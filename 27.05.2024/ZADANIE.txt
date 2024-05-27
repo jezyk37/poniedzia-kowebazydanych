@@ -1,0 +1,17 @@
+ZADANIE domowe:
+UTWORZ PREZENTACJE ZE SWOIMI PRZYKLADAMI POBIERANIA DANYCH W FORMIE JSON DO SWOJEJ STRONY INTERNETOWEJ.
+a) utworz sowj plik json minimum 5 parametrow dla danego obiektu
+b) zajerestruj sie w darmowym api pogodowym np api.openweathermap.org
+c) korzystajac z zadanie 1 https:jsonplaceholder.typicode/photos pobierz fotografie
+d) pobierz wszystkie posty ze strony szkoły
+
+
+zadanie na lekcji
+utworz strone internetowa ktora pobiera z endpointa o nazwie jsonplaceholder.typicode.com/posts
+pobiera
+ 
+id
+title
+body
+
+zaprezentuj w formie strony która posiada css
