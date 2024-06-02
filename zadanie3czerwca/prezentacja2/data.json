@@ -1,0 +1,17 @@
+[
+    {
+        "imie": "Jan",
+        "nazwisko": "Kowalski",
+        "nr_telefonu": "123-456-789"
+    },
+    {
+        "imie": "Anna",
+        "nazwisko": "Nowak",
+        "nr_telefonu": "987-654-321"
+    },
+    {
+        "imie": "Piotr",
+        "nazwisko": "Wiśniewski",
+        "nr_telefonu": "456-789-123"
+    }
+]

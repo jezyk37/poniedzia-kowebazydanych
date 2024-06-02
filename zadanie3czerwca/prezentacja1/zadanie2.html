@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="weather-widget">
+      <h1>Pogoda w pszczynie</h1>
+      <div class="results">
+        <p></p>
+      </div>
+      <button id="get-weather">Pobierz pogodę</button>
+    </div>
+
+    <script>
+      $("#get-weather").on("click", function () {
+        console.log("click");
+
+        $.getJSON(
+          "https://api.openweathermap.org/data/2.5/weather?q=Pszczyna&appid=ed32befff3d5864309c28318fc9ed338&units=metric"
+        )
+          .done(function (data) {
+            console.log(data);
+
+            var output = "";
+
+            output += "<h2>" + data.weather[0].main + "</h2>";
+            output +=
+              '<img src="http://openweathermap.org/img/w/' +
+              data.weather[0].icon +
+              '.png" alt="Icon depicting current weather." />';
+            output += "<p>Temperature: " + data.main.temp + "°C</p>";
+            output +=
+              "<p>Time: " +
+              new Date(data.dt * 1000).toLocaleTimeString() +
+              "</p>";
+
+            $(".results").html(output);
+          })
+          .fail(function (jqXHR, textStatus, errorThrown) {
+            alert("Error: " + textStatus + " - " + errorThrown);
+          })
+          .always(function () {
+            console.log("Always run");
+          });
+      });
+    </script>
+  </body>
+</html>
