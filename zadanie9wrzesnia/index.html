@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <div>
+        <h1>Możliwosci połączeń do bazy danych</h1>
+    </div>
+    
+    <nav>
+        <button onclick="Mysql()">Mysql</button>
+        <button onclick="JSON()">JSON</button>
+        <button onclick="Postgree()">Postgree sql</button>
+        <button onclick="MSse()">MS Server Express</button>
+        <button onclick="Odbc()">Odbc</button>
+    </nav>
+</header>
+
+
+<section class="section1">
+    <div class="content" id="contents">
+
+    </div>
+</section>
+    
+
+
+
+
+<script>
+
+function Mysql(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">MySQl</h1>
+    <h2>MySQL to rozszerzenie PHP do pracy z bazą MySQL, które obsługuje zapytania przygotowane, co poprawia bezpieczeństwo. Pozwala na połączenia zarówno proceduralne, jak i obiektowe. Jest to najczęściej używane rozszerzenie w aplikacjach PHP z bazą MySQL.</h2>
+    <h1>Połączenie za pomocą Mysql:</h1>
+    <div class="zdjecie">
+       <img src="mysql.png"> 
+    </div>
+    
+    
+    `;
+}
+
+function JSON(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">JSON</h1>
+    <h2>JSON to format przechowywania danych, który można łatwo odczytać w PHP za pomocą funkcji json_decode(). Dane JSON mogą być przechowywane lokalnie lub pobierane z API, co pozwala na łatwe manipulowanie danymi bez korzystania z bazy SQL.</h2>
+    <h1>Połączenie za pomocą JSON:</h1>
+    <div class="zdjecie">
+       <img src="json.png"> 
+    </div>
+    <h1>Przykładowa baza danych w JSON:</h1>
+    <div class="zdjecie">
+       <img src="dane-json.png"> 
+    </div>
+    `;
+}
+
+function Postgree(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Postgree</h1>
+    <h2>PostgreSQL - pg_connect to funkcja, która umożliwia bezpośrednie połączenie z bazą PostgreSQL. Używa stringu połączenia do określenia parametrów bazy. To prosty sposób na nawiązanie połączenia z PostgreSQL, ale bez zaawansowanych funkcji jak np. w PDO.</h2>
+    <h1>Połączenie za pomocą Postgree:</h1>
+    <div class="zdjecie">
+       <img src="postgree.png"> 
+    </div>
+
+    <h1>Można również używać funkcji specyficznych dla PostgreSQL, takich jak pg_connect():</h1>
+    <div class="zdjecie">
+       <img src="postgree2.png"> 
+    </div>
+    
+    `;
+}
+function MSse(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">MS Server Express</h1>
+    <h2>MS Server Express (PDO) to elastyczne rozwiązanie, które wspiera różne bazy danych, w tym MS SQL Server. Umożliwia korzystanie z zapytań przygotowanych i transakcji. Dzięki temu łatwiej jest przełączać się między różnymi bazami danych bez dużych zmian w kodzie.</h2>
+    <h1>Połączenie za pomocą MS Server Express:</h1>
+    <div class="zdjecie">
+       <img src="msse.png"> 
+    </div>
+    <h1>Można również użyć natywnego sterownika sqlsrv:</h1>
+    <div class="zdjecie">
+       <img src="msse2.png"> 
+    </div>    
+    `;
+}
+
+function Odbc(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">ODBC</h1>
+    <h2>ODBC to starsza, uniwersalna technologia, która pozwala na połączenie z wieloma różnymi bazami danych. Jest przydatna, gdy chcemy korzystać z różnych systemów baz danych w tym samym kodzie, oferując wspólny interfejs dla wielu rozwiązań bazodanowych.</h2>
+    <h1>Połączenie za pomocą odbc:</h1>
+    <div class="zdjecie">
+       <img src="odbc.png"> 
+    </div>  
+    `;
+}
+
+</script>
+
+</body>
+</html>

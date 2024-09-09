@@ -1,0 +1,25 @@
+{
+    "uzytkownicy": [
+        {
+            "id": 1,
+            "imie": "Jan",
+            "nazwisko": "Kowalski",
+            "email": "jan.kowalski@example.com",
+            "wiek": 30
+        },
+        {
+            "id": 2,
+            "imie": "Anna",
+            "nazwisko": "Nowak",
+            "email": "anna.nowak@example.com",
+            "wiek": 25
+        },
+        {
+            "id": 3,
+            "imie": "Piotr",
+            "nazwisko": "Zielinski",
+            "email": "piotr.zielinski@example.com",
+            "wiek": 28
+        }
+    ]
+}
